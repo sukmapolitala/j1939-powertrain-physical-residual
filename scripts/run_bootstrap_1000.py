@@ -1,7 +1,7 @@
 from pathlib import Path
 import pandas as pd, numpy as np
 from sklearn.metrics import roc_auc_score, average_precision_score
-R=Path('/mnt/data/j1939-powertrain-physical-residual')
+R = Path(__file__).resolve().parents[1]
 d=pd.read_csv(R/'results/primary_predictions_20ms.csv'); y=d.ground_truth.to_numpy(dtype=int)
 methods={
  'Proposed state-conditioned residual':('score_proposed','alarm_proposed'),
