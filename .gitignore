@@ -1,0 +1,22 @@
+# Original third-party source and decoded data must never be committed without permission.
+data/local_raw/
+data/local_derived/
+data/private*/
+data/*.csv
+results/local_private/
+results/*predictions*.csv
+results/*chronological*.csv
+models/
+*.joblib
+*.pkl
+*.log
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.env
+.env.*
+.DS_Store
+*.tmp
+figures/generated/
