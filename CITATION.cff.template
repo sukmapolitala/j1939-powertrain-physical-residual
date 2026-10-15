@@ -1,0 +1,6 @@
+cff-version: 1.2.0
+message: "Cite the associated manuscript and original data provider; complete this file before making the first archival release."
+title: "Operating-State-Conditioned Physical Residual Anomaly Detection from SAE J1939 for Heavy-Duty Diesel Powertrains: Reproducibility Code"
+type: software
+version: 0.1.0
+# Add manuscript DOI, authors, and ORCID after author approval.

@@ -1,0 +1,5 @@
+[project]
+name = "j1939-powertrain-physical-residual"
+version = "0.1.0"
+description = "Reproducible SAE J1939 physical-state residual analysis"
+requires-python = ">=3.10"

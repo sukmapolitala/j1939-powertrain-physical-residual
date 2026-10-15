@@ -1,0 +1,3 @@
+comparison,bootstrap_repeats,delta_f1_ci_low,delta_f1_ci_high,delta_far_ci_low,delta_far_ci_high
+Proposed minus Isolation Forest,1000,0.0026587029701072022,0.277016433260687,-0.496251253132832,-0.15498564030131828
+Proposed minus One-Class SVM,1000,-0.1441236211569807,0.2987895074181482,-0.7337979386926655,-0.24495884458077713

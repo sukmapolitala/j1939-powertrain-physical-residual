@@ -1,0 +1,25 @@
+{
+  "temporal_resolution_ms": 20,
+  "event_onset_s": 14.98,
+  "event_end_s": 24.4,
+  "train_rows": 1349,
+  "calibration_rows": 450,
+  "heldout_healthy_rows": 451,
+  "event_rows": 472,
+  "calibration_quantile": 0.99,
+  "ewma_alpha": 0.25,
+  "persistence_samples": 3,
+  "context_features": [
+    "accelerator_pedal_pct",
+    "driver_demand_torque_pct",
+    "vehicle_speed_kph"
+  ],
+  "response_features": [
+    "engine_demand_torque_pct",
+    "actual_engine_torque_pct",
+    "engine_load_pct",
+    "engine_speed_rpm",
+    "fuel_rate_lph",
+    "intake_manifold_pressure_kpa"
+  ]
+}

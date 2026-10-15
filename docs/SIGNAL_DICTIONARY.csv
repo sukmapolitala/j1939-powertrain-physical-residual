@@ -1,0 +1,17 @@
+name,pgn,spn,pgn_name,start_byte,length_bytes,endianness,resolution,offset,unit,preferred_source,na_raw_min,stale_s,role,notes
+driver_demand_torque_pct,61444,512,Electronic Engine Controller 1 (EEC1),2,1,little,1.0,-125.0,%,0,250,0.25,control/physical state,Driver-requested engine torque; not the malicious TSC1 command.
+actual_engine_torque_pct,61444,513,Electronic Engine Controller 1 (EEC1),3,1,little,1.0,-125.0,%,0,250,0.25,physical response,Actual engine percent torque.
+engine_speed_rpm,61444,190,Electronic Engine Controller 1 (EEC1),4,2,little,0.125,0.0,rpm,0,64255,0.25,physical response,Primary dynamic engine-speed signal.
+engine_demand_torque_pct,61444,2432,Electronic Engine Controller 1 (EEC1),8,1,little,1.0,-125.0,%,0,250,0.25,control/physical state,Engine demand percent torque broadcast by engine ECU.
+accelerator_pedal_pct,61443,91,Electronic Engine Controller 2 (EEC2),2,1,little,0.4,0.0,%,0,250,0.25,driver input,Accelerator pedal position 1.
+engine_load_pct,61443,92,Electronic Engine Controller 2 (EEC2),3,1,little,1.0,0.0,%,0,250,0.25,operating condition,Engine percent load at current speed.
+fuel_rate_lph,65266,183,Fuel Economy (Liquid) (LFE1),1,2,little,0.05,0.0,L/h,0,64255,0.5,fuel/energy state,Liquid fuel rate. Source 49 in this capture often carries all-FF N/A and is intentionally excluded.
+instant_fuel_economy_km_per_l,65266,184,Fuel Economy (Liquid) (LFE1),3,2,little,0.001953125,0.0,km/L,0,64255,0.5,derived ECU state,"Instantaneous fuel economy; retain for audit, optional for modeling."
+vehicle_speed_kph,65265,84,Cruise Control/Vehicle Speed 1 (CCVS1),2,2,little,0.00390625,0.0,km/h,0,64255,0.3,operating condition,Wheel-based vehicle speed.
+intake_manifold_pressure_kpa,65270,102,Intake/Exhaust Conditions 1 (IC1),2,1,little,2.0,0.0,kPa,0,250,1.0,air path,Engine intake manifold #1 pressure.
+intake_manifold_temp_c,65270,105,Intake/Exhaust Conditions 1 (IC1),3,1,little,1.0,-40.0,degC,0,250,1.0,air path,Engine intake manifold #1 temperature.
+air_inlet_pressure_kpa,65270,106,Intake/Exhaust Conditions 1 (IC1),4,1,little,2.0,0.0,kPa,0,250,1.0,air path,Engine intake air pressure.
+air_filter_dp_kpa,65270,107,Intake/Exhaust Conditions 1 (IC1),5,1,little,0.05,0.0,kPa,0,250,1.0,air path,Engine air filter #1 differential pressure; may be N/A in this vehicle.
+coolant_temp_c,65262,110,Engine Temperature 1 (ET1),1,1,little,1.0,-40.0,degC,0,250,2.5,thermal state,Engine coolant temperature.
+engine_oil_pressure_kpa,65263,100,Engine Fluid Level/Pressure 1 (EFL/P1),4,1,little,4.0,0.0,kPa,0,250,2.5,lubrication state,Engine oil pressure.
+battery_voltage_v,65271,168,Vehicle Electrical Power 1 (VEP1),5,2,little,0.05,0.0,V,0,64255,2.5,electrical state,Battery potential / power input 1.
