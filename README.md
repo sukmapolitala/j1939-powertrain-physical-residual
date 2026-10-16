@@ -1,5 +1,8 @@
 # Operating-state-conditioned physical residual monitoring of diesel powertrains
 
+[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23407324.svg)](https://doi.org/10.5281/zenodo.23407324)
+
+
 **Reproducibility repository for the scientific study**
 
 *Operating-State-Conditioned Physical Residual Anomaly Detection from SAE J1939 for Heavy-Duty Diesel Powertrains*
