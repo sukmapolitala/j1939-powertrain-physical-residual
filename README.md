@@ -1,6 +1,8 @@
 # Operating-state-conditioned physical residual monitoring of diesel powertrains
 
-[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23407324.svg)](https://doi.org/10.5281/zenodo.23407324)
+[![DOI](https://zenodo.org/badge/1420451611.svg)](https://doi.org/10.5281/zenodo.23407323)
+
+**Archived release `v1.0.0-paper` (version-specific DOI):** https://doi.org/10.5281/zenodo.23407324
 
 
 **Reproducibility repository for the scientific study**
