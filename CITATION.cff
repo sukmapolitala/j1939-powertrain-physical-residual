@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: >-
+  If you use this research software, please cite the version-specific archived
+  software release and acknowledge the original SAE J1939 dataset provider.
+title: >-
+  Operating-State-Conditioned Physical Residual Anomaly Detection from SAE
+  J1939 for Heavy-Duty Diesel Powertrains: Reproducibility Code
+type: software
+authors:
+  - family-names: Firdaus
+    given-names: Sukma
+    affiliation: >-
+      Program Studi Diploma 4 Teknologi Rekayasa Pemeliharaan Alat Berat,
+      Politeknik Negeri Tanah Laut
+version: 1.0.0-paper
+license: MIT
+repository-code: https://github.com/sukmapolitala/j1939-powertrain-physical-residual
+keywords:
+  - SAE J1939
+  - heavy-duty diesel powertrain
+  - physical residual
+  - operating-state conditioning
+  - anomaly detection
+  - reproducibility
+abstract: >-
+  Reproducibility software for an operating-state-conditioned physical residual
+  detector based on SAE J1939 heavy-duty diesel powertrain telemetry.
+  The repository includes author-created decoding and analysis code, experimental
+  configurations, tests, and aggregate evaluation results. Original third-party
+  recordings and record-level derived physical measurements are not redistributed
+  because their redistribution permissions have not been verified.
